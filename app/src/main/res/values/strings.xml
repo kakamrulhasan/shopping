@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">eCommerce</string>
+    <string name="intro_First_line">The Easy Shopping Solution</string>
+    <string name="intro_second_line">Shop is in Your hand now!</string>
+</resources>

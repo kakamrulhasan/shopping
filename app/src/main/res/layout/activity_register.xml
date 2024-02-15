@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    android:background="@color/white"
+    android:gravity="center"
+    tools:context=".RegisterActivity">
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ecommerlogo"
+        android:layout_gravity="center"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEW USERS"
+        android:fontFamily="sans-serif"
+        android:textSize="30dp"
+
+        android:layout_marginTop="100dp"
+        android:textAlignment="center"
+        android:textColor="#9F0B0B"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="First name"
+            android:id="@+id/reg_first_name_id"
+            android:backgroundTint="#8F0D0D"
+            android:backgroundTintMode="screen"
+            android:textSize="20dp"
+            android:textColor="#9A1111"
+            />
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last name"
+            android:id="@+id/reg_last_name_id"
+            android:backgroundTint="#8F0D0D"
+            android:backgroundTintMode="screen"
+            android:textSize="20dp"
+            android:textColor="#9A1111"
+            />
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:id="@+id/reg_email_id"
+        android:backgroundTint="#8F0D0D"
+        android:backgroundTintMode="screen"
+        android:textSize="20dp"
+        android:textColor="#9A1111"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="password"
+            android:id="@+id/reg_password_id"
+            android:backgroundTint="#8F0D0D"
+            android:backgroundTintMode="screen"
+            android:textSize="20dp"
+            android:textColor="#9A1111"
+            />
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm password"
+            android:id="@+id/reg_confirm_password_id"
+            android:backgroundTint="#8F0D0D"
+            android:backgroundTintMode="screen"
+            android:textSize="20dp"
+            android:textColor="#9A1111"
+            />
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact number"
+        android:id="@+id/reg_Contact_id"
+        android:backgroundTint="#8F0D0D"
+        android:backgroundTintMode="screen"
+        android:textSize="20dp"
+        android:textColor="#9A1111"
+        />
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="REGISTER"
+        android:textSize="20dp"
+        android:id="@+id/register_btn_id"
+        android:background="#EFE7E7"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:layout_marginTop="15dp"
+        android:textColor="#9F0B0B"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK TO LOGIN"
+        android:layout_marginTop="15dp"
+        android:id="@+id/register_to_login_id"
+        android:textColor="#9F0B0B"
+        />
+
+</LinearLayout>
